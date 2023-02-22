@@ -1,0 +1,208 @@
+
+/*Fuentes*/
+@font-face {
+    font-family: 'aachenn';
+    src: url('/SitioMascotas/fuentes/regularr.ttf') format('truetype'); /* Cambia la extensión del archivo de acuerdo con la extensión del archivo de la fuente que estás importando */
+    font-weight: 100;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: aachenn;
+}
+
+
+body{
+     background-image: url(/SitioMascotas/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+header{
+    background-color: #03fc30;
+    width: 100%;
+    height: 6rem;
+    margin-top: 0;
+}
+
+
+/*Barra de navegacion*/
+.nav-bar{
+    text-align: center;
+}
+
+
+ul > li{
+    display: inline;
+    color:white;
+    font-weight: 800;
+    font-size: 28px;
+    margin-left: 4rem;
+    text-align: center;
+}
+
+ul >li:last-of-type{
+    position: absolute;
+    left: 90%;
+    top: 1.5%;
+}
+
+a.nav{
+    text-decoration: none;
+    color:white
+}
+
+a.nav:hover{
+    font-size: 40px;
+    transition: .3s;
+}
+
+a.nav:hover::after{
+    transition: .3s;
+}
+
+
+
+
+/*---------------------------------*/
+
+section{
+    background-color: rgba(255,255,255, 0.1);
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Carrusel framework class*/
+.swiper{
+    width: 60%;
+    height: 50%;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 1%;
+}
+
+
+/*Hacer que los elementos ocupen todo el espacio de su container*/
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*Footer*/
+
+footer{
+    background-color: #03fc30;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+
+a.link-footer{
+    text-decoration: none;
+    color:white;
+}
+
+a.link-footer:hover {
+     color:rgba(35,175,228,255);
+}
+   
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+}
+
+   /* color:rgba(35,175,228,255);*/
+
+/*Nickelodeon img*/
+#footer-img{
+    width: 8%;
+    position: absolute;
+    left: 20px;
+    top: 28px;
+
+}
+
+#titulo-mascotas{
+    margin-top: 6%;
+
+}
+
+
+ol{
+    display: inline;
+}
+
+
+
+/*---------------------------*/
+
+
+h1{
+    color: yellow;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: 900;
+    
+}
+
+
+h2{ 
+   color: white; 
+   font-weight: 900;
+
+}
+
+
+.home{
+    width: 45px;
+    align-items: center;
+
+}
+
+
+.preview{
+    width: 60%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainPageLogo{
+    width: 10%;
+}
+
+.copyright{
+    color: white; 
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+

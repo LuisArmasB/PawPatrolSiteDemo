@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawPatrol</title>
+    <link rel="stylesheet" href="/SitioMascotas/css/estilos.css"/>
+    
+    <!--Swiper Bundle-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!--ICON-->
+    <link rel="icon" href="/SitioMascotas/images/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/SitioMascotas/images/icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">  
+
+                      <img src="/SitioMascotas/images/icon.png" class="mainPageLogo">    
+                <ul>
+                    <li>
+                       <a href="/SitioMascotas/contenido/perros.html" target="_self" class="nav"> Perros</a>    
+                    </li>
+                    <li>
+                        <a href="/SitioMascotas/contenido/gatos.html" target="_self" class="nav"> Gatos</a>    
+                    </li>   
+                    <li>
+                        <a href="/SitioMascotas/contenido/videosAnimales.html" class="nav">Videos de animales</a>
+                    </li>
+                    <li>
+                       <a href="/SitioMascotas/contenido/registrosAnimales.html" class="nav">Registro de animales</a>
+                    </li>
+
+                    
+
+ 
+                    <li>
+                        <a href="/SitioMascotas/index.html"><img src="/SitioMascotas/images/logo.svg" class="home" alt="Home-logo"></a>
+                    </li>
+                </ul>
+
+        </nav>
+    </header>
+
+        <section id="carrusel" name="carrusel" class="slider-container">
+                <h1 id="titulo-mascotas">Enviados por nuestros seguidores</h1>
+            <div class="swiper swiper-container">
+                    <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <video src="/SitioMascotas/multimedia/perros.mp4" width="640" height="360" loop controls>
+                                    Tu navegador no soporta la reproducción de videos.
+                                  </video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video src="/SitioMascotas/multimedia/cabras.mp4" width="640" height="360"  loop controls>
+                                    Tu navegador no soporta la reproducción de videos.
+                                  </video>
+                            </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+            </div>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+                });
+                </script>
+        </section>
+
+    <footer>
+
+        <img src="/SitioMascotas/images/nickelodeon.png" alt="nickelodeon logo" id="footer-img">
+        
+        <diV class="links">
+        <ol>
+            <li>
+                <a href="mailto:ayudamediosito@gmail.com" class="link-footer">ayudamediosito@gmail.com</a>
+            </li>
+            <li>
+                <a class="link-footer" href="">Politicas de privacidad</a>
+            </li>
+            <li>
+                <a class="link-footer" href="">Terminos y condiciones</a>
+            </li>
+        </ol>
+        </diV>
+        <div>
+        <p class="copyright">PawPatrol™ Nickelodeon®. Todos los derechos reservados. *Actualizado en febrero de 2023</p>
+        </div>
+    </footer>
+</body>
+</html>

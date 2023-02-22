@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawPatrol</title>
+    <link rel="stylesheet" href="/SitioMascotas/css/estilos.css"/>
+
+    <!--ICON-->
+    <link rel="icon" href="/SitioMascotas/images/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/SitioMascotas/images/icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">  
+                <ul>
+
+                    <li>
+                       <a href="/SitioMascotas/contenido/perros.html" target="_self"> Perros</a>    
+                    </li>
+                    <li>
+                        <a href="/SitioMascotas/contenido/gatos.html" target="_self"> Gatos</a>    
+                    </li>   
+                    <li>
+                        <a href="/SitioMascotas/contenido/videosAnimales.html">Videos de animales</a>
+                    </li>
+                    <li>
+                       <a href="/SitioMascotas/contenido/registrosAnimales.html">Registro de animales</a>
+                    </li>
+
+                    
+
+
+                    <li>
+                        <a href="/SitioMascotas/index.html"><img src="/SitioMascotas/images/logo.svg" class="home" alt="Home-logo"></a>
+                    </li>
+                </ul>
+
+        </nav>
+    </header>
+        <h1>Registro de Animales</h1>
+        
+        <form action="" method="post">
+        <table>
+          <tr>
+                <td>
+                    <labe for="tx-nombre">Nombre Mascota</labe>
+                </td>
+                <td>
+                    <input type="text" name="tx-nombre" id="tx-nombre">
+                </td>
+          </tr>
+          <tr>
+                <td>
+                    <label for="sltipoMascota">Tipo Mascota</label>
+                </td>
+                <td>
+                    <select name="sltipoMascota" id="sltipoMascota" >
+                            <option value="1">Perro</option>
+                            <option value="2">Gato</option>
+                            <option value="3">Camello</option>
+                    </select>
+                </td>
+          </tr>
+          <tr>
+                <td>
+                    <label for="">Sexo</label>
+                </td>
+                <td>
+                    Macho<input type="radio" name="genero" id="genero">
+                    Hembra<input type="radio" name="genero" id="genero">
+                    HelicopteroApache<input type="radio" name="genero" id="genero">
+                </td>
+          </tr>
+          <tr>
+                <td>
+                    <label for="thcaracteristicas">Caracteristicas</label>
+                </td>
+                <td>
+                        Pelaje Largo<input type="checkbox" name="thcaracteristicas" id="thcaracteristicas" value="1">
+                        Pelaje Chino<input type="checkbox" name="thcaracteristicas" id="thcaracteristicas" value="2">
+                        Con Manchas<input type="checkbox" name="thcaracteristicas" id="thcaracteristicas" value="3">
+                        Sin Manchas<input type="checkbox" name="thcaracteristicas" id="thcaracteristicas" value="4">
+                </td>
+          </tr>
+          <tr>
+                <td>
+                    <label for="contacto">Correo de Contacto</label>
+                </td>
+                <td>
+                    <input type="email" name="contacto" id="contacto">
+                </td>
+          </tr>
+          <tr>
+                <td>
+                    <label for="foto">Sube una foto de tu mascota</label>
+                </td>
+                <td>
+                    <input type="file" name="foto" id="foto">
+                </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="fecha">Fecha</label>
+            </td>
+            <td>
+                <input type="date" name="fecha" id="fecha">
+
+            </td>
+
+
+          </tr>
+
+
+          <tr>
+            <td>
+                <button type="submit">Enviar</button>
+            </td>
+          </tr>
+
+
+        </table>            
+        </form>
+
+
+        
+
+
+    <footer>
+        <h2>ayudamediosito@gmail.com</h2>
+        <h2>Privacy Policy</h2>
+
+    </footer>
+
+
+</body>
+</html>
